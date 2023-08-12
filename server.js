@@ -19,7 +19,7 @@ app.use(
     saveUninitialized: true,
   })
 );
-mongoose.connect("mongodb+srv://Shivam:hvRriMW8zp0X27oa@cluster0.z2kjwwp.mongodb.net/SummerTraining?retryWrites=true&w=majority", {
+mongoose.connect("mongodb://127.0.0.1:27017/TodoDatabase", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
